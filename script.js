@@ -41,6 +41,13 @@ const products = [
         price: 31.99,
         emoji: '❤️',
         description: 'Loving teddy full of heart'
+    },
+    {
+        id: 7,
+        name: 'Luxury Kushti Teddy',
+        price: 599,
+        emoji: '🧵',
+        description: 'Premium handcrafted kushti teddy with finest embroidery'
     }
 ];
 
@@ -65,7 +72,7 @@ function displayProducts() {
             <div class="product-emoji">${product.emoji}</div>
             <h3>${product.name}</h3>
             <p>${product.description}</p>
-            <div class="product-price">$${product.price.toFixed(2)}</div>
+            <div class="product-price">₹${product.price}</div>
             <button class="add-to-cart" onclick="addToCart(${product.id})">Add to Cart</button>
         `;
         productsGrid.appendChild(productCard);
@@ -116,7 +123,7 @@ function updateCartDisplay() {
             <div class="cart-item">
                 <div class="cart-item-info">
                     <div class="cart-item-name">${item.emoji} ${item.name}</div>
-                    <div class="cart-item-price">$${item.price.toFixed(2)} x ${item.quantity}</div>
+                    <div class="cart-item-price">₹${item.price} x ${item.quantity}</div>
                 </div>
                 <button class="cart-item-remove" onclick="removeFromCart(${item.id})">Remove</button>
             </div>
