@@ -2,28 +2,33 @@
 
 A cute and colorful website for a toy shop specializing in teddy bears and plush toys!
 
-## Features
+## ✨ Features
 
-✨ **Features**
-- 🧸 Beautiful product showcase with 6 adorable teddy bears
+- 🧸 Beautiful product showcase with 7 adorable teddy bears
 - 🛒 Fully functional shopping cart with local storage
 - 💝 Responsive design that works on all devices
 - 🎨 Cute pastel color scheme perfect for a toy shop
 - 📱 Mobile-friendly navigation
 - ✉️ Contact form for customer inquiries
 - 💾 Cart persistence using browser local storage
+- 👑 Premium luxury teddy bear collection
 
-## Products Included
+## 🧸 Products Included
 
-1. **Classic Brown Teddy** - $24.99
-2. **Pink Princess Bear** - $29.99
-3. **Honey Bear** - $22.99
-4. **Rainbow Buddy** - $34.99
-5. **Sleepy Bear** - $26.99
-6. **Heart Teddy** - $31.99
+1. **Classic Brown Teddy** - ₹24.99
+2. **Pink Princess Bear** - ₹29.99
+3. **Honey Bear** - ₹22.99
+4. **Rainbow Buddy** - ₹34.99
+5. **Sleepy Bear** - ₹26.99
+6. **Heart Teddy** - ₹31.99
+7. **Luxury Kushti Teddy** - ₹599 (Premium handcrafted with finest embroidery)
 
-## How to Use
+## 🚀 How to Use
 
+### Option 1: Online (Easiest)
+Visit: **https://najialirahmant-byte.github.io/teddy-toy-shop/**
+
+### Option 2: Local
 1. Clone this repository
 2. Open `index.html` in your web browser
 3. Browse the adorable teddy bear collection
@@ -31,14 +36,14 @@ A cute and colorful website for a toy shop specializing in teddy bears and plush
 5. Click the shopping cart button to view your items
 6. Fill out the contact form for inquiries
 
-## Technologies Used
+## 💻 Technologies Used
 
 - HTML5
 - CSS3 (with Flexbox and Grid)
 - JavaScript (Vanilla JS)
 - Local Storage for cart persistence
 
-## File Structure
+## 📁 File Structure
 
 ```
 teddy-toy-shop/
@@ -48,7 +53,7 @@ teddy-toy-shop/
 └── README.md        # This file
 ```
 
-## Customization
+## 🎨 Customization
 
 To add more products, edit the `products` array in `script.js`:
 
@@ -65,14 +70,14 @@ const products = [
 ];
 ```
 
-## Browser Compatibility
+## 🌐 Browser Compatibility
 
 - Chrome
 - Firefox
 - Safari
 - Edge
 
-## License
+## 📜 License
 
 Open source and free to use!
 
